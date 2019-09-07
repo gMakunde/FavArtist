@@ -7,7 +7,7 @@ import json
 app = flask.Flask(__name__)
 url = "https://api.genius.com/search?q=Ari%20Lennox"
 my_headers = { 
-    "Authorization":"Bearer nW7AUdiUQgMX_-J2ThxfjdLeoef9ITdMdTAsPu38EckkKZUFyld95Byrn9MNGmUh"
+    "Authorization":"Bearer blarg"
     
 }
 response = requests.get(url, headers=my_headers)
