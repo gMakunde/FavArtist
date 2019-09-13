@@ -23,7 +23,7 @@ def index():
         twit_token_secret,
     )
     genius_headers = { 
-        "Authorization":"Bearer nW7AUdiUQgMX_-J2ThxfjdLeoef9ITdMdTAsPu38EckkKZUFyld95Byrn9MNGmUh"
+        "Authorization":"Bearer" + auth
     }
     gen_response = requests.get(gen_url, headers=genius_headers)
     twit_response = requests.get(twit_url, auth=twit_oauth)
